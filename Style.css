@@ -1,0 +1,309 @@
+.bg-img {
+    background-image: url("https://media.istockphoto.com/id/1191193118/photo/bartender-working-at-the-cafe.jpg?s=612x612&w=0&k=20&c=PYaYNgJqroYVeps8XJQuLNl6LmYaGxNviCObbN_ZDFU=");
+    height: 150px;
+    opacity: 0.9;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+
+}
+
+.h-150 {
+    height: 200px;
+
+}
+
+.counter {
+    background-image: url("https://img.freepik.com/free-photo/narrow-hallway_181624-187.jpg?size=626&ext=jpg&ga=GA1.1.586528727.1721893114&semt=ais_hybrid");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3.125em;
+
+    /* position: absolute; */
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-black);
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.h-150{
+    height: 250px;
+}
+.font{
+    font-size:40px;
+    font-weight:800;
+    color: white;
+}
+
+.space{
+    text-indent:100px;
+}
+.color{
+    color: white;
+}
+.spacing{
+    text-indent: 0px;
+}
+.our-partner-slider{
+    background-color:rgb(225, 223, 223);
+    padding: 20px;
+    
+}
+.c{
+    background-color: black;
+}
+.white{
+    color: white;
+}
+.y{
+
+    color: yellow;
+}
+.b{
+    background-color: rgb(28, 28, 62);
+    padding: 30px;
+}
+.half{
+    height: 600px;
+    width:600px ;
+
+}
+
+.slider-bg{
+    background-image: url("https://media.istockphoto.com/id/512495861/photo/shiny-beach-house-at-night-maldives.jpg?s=1024x1024&w=is&k=20&c=9yxV5OEJoN_Sq1r_pp52K8ippOruuAYiMO4gmqXa8yI=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.slider.bg1{
+    background-image: url("https://www.dellaresorts.com/new-images/camp-della-interior-v1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.slider-bg2{
+    background-image: url("https://media.istockphoto.com/id/467705580/photo/over-water-bungalows-with-steps-into-amazing-green-lagoon.jpg?s=612x612&w=0&k=20&c=NqR685Qb17icbGK0N7WWSCOJWDREOWKZwymuJ2jAh0U=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.main-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0.1rem solid black;
+    padding: 0.375em 1.875rem;
+    border-radius: 3.125rem;
+    line-height: 1.75rem;
+    display: inline-block;
+    transition: all 0.3s ease-out 0s;
+}
+
+.main-btn:hover{
+    background-color:rgb(223, 223, 108);
+    border-color: rgb(223, 223, 108);
+    color: white;
+}
+
+.header_wrapper.navbar{
+    padding: .9375rem 0;
+    background-color: white;
+    -webkit-box-shadow: 0.5rem  0.375rem -0,375rem rgb(0 0 0/40%);
+    box-shadow: 0.5rem  0.375rem -0.375rem rgb(0 0 0/40%);
+    -webkit-transition: background 0s ease-in-out 0s, margin-top 0s,opacity 0s ease-in-out 0s;
+    transition: background 0s ease-in-out 0s, margin-top 0s,opacity 0s ease-in-out 0s ;
+
+}
+
+.header_wrapper .navbar-toggler{
+    border:0;
+    color: rgb(14, 14, 35);
+    line-height: 2;
+
+}
+
+.header_wrapper .navbar-toggler:focus{
+    box-shadow:none;
+}
+
+.header_wrapper .nav-item{
+    margin: .625rem;
+}
+
+.header_wrapper .nav-item .nav-link{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(14, 14, 35);
+    display: inline-block;
+}
+
+.header_wrapper .nav-item .nav-link:hover,
+.header_wrapper .nav-item .nav-link.active{
+    color:rgb(223, 223, 108);
+}
+
+.navbar.header-scrolled{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index:9999 ;
+    background-color: rgba(255,255,255,.85);
+    animation:500ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+@keyframes fadeInDown{
+    0%{
+        top: 30%;
+    }
+    50%{
+        top: -15%;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+@media (max-width: 1199px){
+    .header_wrapper .navbar-expand-lg .navbar-nav{
+        align-items: center;
+    }
+    .header_wrapper .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 0;
+        font-size: .875rem;
+
+    }
+
+    .main-btn{
+        font-size: .875rem;
+    }
+}
+
+@media(max-width:991px){
+    section{
+        padding: 1.875 0;
+    }
+
+    .header-scrolled{
+        height: auto;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        padding-bottom: .9275rem;
+    }
+
+    .header_wrapper .nav-item .nav-link{
+        margin-top: .9375rem;
+    }
+}
+
+@media(max-width:767px){
+    h1{
+        font-size: .875rem;
+        line-height: 2.5rem;
+    }
+    .h3{
+        font-size: 1.75;
+        line-height: 2.1875rem;
+    }
+    .h5{
+        font-size: 1.25;
+
+    }
+    .p{
+        font-size: .8125rem;
+        line-height: 1.5rem;
+    }
+}
+
+.a{
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 100px;
+    color: white;
+    font-weight:700;
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+.height{
+    
+    height: 100vh;
+}
+
+.b{
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ margin-top:250px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.service-item-wrap{
+    background-color: white;
+
+}
+
+.service-menu-area ul li a{
+    display: block;
+    margin-bottom: 2.8125;
+}
+.service-menu-area ul li a.service-icon{
+    height: 5.625rem;
+    width: 5.625rem;
+    background-color: rgb(223, 223, 108);
+    line-height:5.625rem;
+    text-align: center;
+    border-radius:500%;
+    float: left;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-menu-area ul li a.service-icon:hover,
+.service-menu-area ul li a.active.service-icon{
+    background-color: #021832;
+    color: white;
+    box-shadow: 0.125 rgb(34 30 31/40%);
+}
+.w{
+     height: 5.625rem;
+    width: 5.625rem;
+    line-height:5.625rem;
+    text-align: center;
+    border-radius:100%;
+    float: left;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+
+}.e{
+    background-color: rgb(174, 170, 170)
+
+} 
+
+.service-icon{
+    color: #021832;
+}
+
+.O{
+    box-shadow: 5px 5px 5px rgb(187, 196, 199);
+}

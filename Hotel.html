@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Hotel Manangement</title>
+    
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar"data-bs-offset="100" >
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img  width="60px"  src="https://static.vecteezy.com/system/resources" class="img-fluid" alt="logo">
+                </a>
+           
+      <button class="navbar-toggle" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="flase" aria-label="Toggle navigation">
+    <i class="fa-sharp fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+</button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#rooms">Rooms</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#price">Price</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="#booknow">Book Now</a> 
+                <!-- <button class="btn btn-primary">Book Now</button> -->
+            </li>
+
+        </ul>
+   
+    </div>
+</div>
+</nav>
+</header>
+<div data-aos="fade-up">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"  >
+
+                <div class="nav justify-content-center">
+
+                   
+                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/fa/f7/cc/night-view-from-room.jpg"
+                        class="d-block height w-100 " alt="...">
+
+                        <h1 class="a">welcome to hotel in Dubai</h1>
+                                <p class="b">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                        </div>
+</div>
+                    
+                </div>
+                <div class="carousel-item">
+
+                    <div class="nav justify-content-center">
+                    <img src="https://media.istockphoto.com/id/1265661706/photo/hotel-rooms-corridor.jpg?s=612x612&w=0&k=20&c=OJXeyryuhtEpztiQQdvrA78eaU61l1yG5M6k9dIJQII=" class="d-block height w-100 "
+                        alt="...">
+
+                        <h1 class="a">welcome to hotel in Dubai</h1>
+                                <h6 class="b">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </h6>
+
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="nav justify-content-center">
+                    <img src="https://media.istockphoto.com/id/467705580/photo/over-water-bungalows-with-steps-into-amazing-green-lagoon.jpg?s=612x612&w=0&k=20&c=NqR685Qb17icbGK0N7WWSCOJWDREOWKZwymuJ2jAh0U="
+                        class="d-block height w-100 " alt="...">
+
+                        <h1 class="a">welcome to hotel in Dubai</h1>
+                        <p class="b">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+
+                        </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container m-4">
+        <div class=" card">
+            <div class="card-body">
+                <input class="m-4" type="date">
+                <input class="m-4" type="date">
+                <select class="m-4">
+                    <option>ADULTS</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+                <select class="m-4">
+                    <option>CHILDREN</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+                <button class="btn m-4">CHECK AVAILABILITY</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://s3-alpha.figma.com/hub/file/4270108840/3954aab6-afed-4632-80c5-3dd7a2f566c4-cover.png"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="nav justify-content-center p-5">
+                <li class="nav-item">
+
+                    <p>WHAT CAN I HELP YOU</p>
+                    <h2 class="fw-bold">
+                        Our Favourite Rooms
+                    </h2>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <div class="card">
+                        <img src="https://angiehomes.co/cdn/shop/products/WHIMSY-BED-SET-_SET-OF-4_-ANGIE-HOMES-1598360531_grande.jpg?v=1612341172"
+                            class="card-body">
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="card">
+                        <img src="https://www.architectandinteriorsindia.com/cloud/2022/01/06/A-Square-Designs-1-2.jpg"
+                            class="card-body">
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="card">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5e71144d8da1b81296674412/1590259834531-KBIK0R8L9EHXYPNMUT4J/17.jpg?format=1500w"
+                            class="card-body">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <section id="services" class="services_wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 section-title text-center mb-5">
+                            <h6>We Are Here For You</h6>
+                            <h3>Our Awesome Services</h3>
+                        </div>
+                    </div>
+                    <div class="row align-items-center services-item-wrap">
+                        <div class="col-lg-7 p-lg-0">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="spa" role="tabpanel">
+                                     <img width="600px" src="https://img.freepik.com/free-photo/attractive-african-woman-enjoying-face-massage-spa-salon_176420-13955.jpg?w=900&t=st=1726129020~exp=1726129620~hmac=e31f5701479df24b0b9b74896cc83914a9467bd3e5df360cf5cdc568aff2c136">
+                                    </div>
+                                    <div class="tab-pane fade" id="restaurent" role="tabpanel" >
+                                    <img src="https://media.istockphoto.com/id/1866992282/photo/beautiful-waitress.jpg?s=612x612&w=0&k=20&c=Jhn5Gaxp3PH9BK-mYlqFVkOBjH3qH8ezQSPF7bX4RBw=">
+                                    </div>
+                                    <div  class="tab-pane fade" id="swimming" role="tabpanel">
+                                     <img width="600px" src="https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=800">
+                                    </div>
+                                    <div class="tab-pane fade" id="conference" role="tabpanel">
+                                    <img width="600px" src="https://www.appliedglobal.com/wp-content/uploads/blog-images/conference-room-technologies.jpg">
+                                    </div>
+                                  </div>
+                                  
+                            </div>
+                            </div>
+                            
+                            <div class="col-lg-5 position-relative">
+                                <div class="service-menu-area ">
+                                    <ul class="nav ">
+                                        <li>
+                                         <a data-bs-toggle="tab" href="#spa" class="active">
+                                            <span class="service-icon">
+                                                <img width="60px" src="https://cdn-icons-png.freepik.com/256/53/53760.png?ga=GA1.1.586528727.1721893114" class="w" alt="">
+                                            </span>
+                                            <h5 class="service-icon">spa,beauty & Health</h5>
+                                            <p class="service-icon"><span class="service-icon">Spa and beauty</span>luptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia</p>
+                                         </a>
+                                        </li>
+                                        <li>
+                                            <a data-bs-toggle="tab" href="#restaurent">
+                                                <span class="service-icon">
+                                                    <img width="60px" src="https://img.freepik.com/premium-vector/restaurant-icon-concept-with-icon-design_24911-17835.jpg?w=740 " class="w " alt="">
+                                                </span>
+                                                <h5 class="service-icon">Restaurant</h5>
+                                                <p class="service-icon"><span class="service-icon">Restaurant</span> lup provide grrot tatem quia voluptas sit aspernatur aut odit aut fugit,</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-bs-toggle="tab" href="#swimming">
+                                                <span class="service-icon">
+                                                    <img width="60px"  src="https://img.freepik.com/premium-vector/swimming-pool-icon-logo-vector-design-template_827767-3033.jpg?w=740" class="w">
+                                                
+                                                </span>
+                                                <h5 class="service-icon">Swimming pool</h5>
+                                                <p class="service-icon"><span class="service-icon">Swimming</span>pool luptatem quia voluptas sit aspernattur aut odit aut,</p>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a data-bs-toggle="tab" href="#conference">
+                                                <span class="service-icon">
+                                                    <img width="60px"  src="https://media.sciencephoto.com/image/f0013556/800wm/F0013556-Meeting_room_symbol,_artwork.jpg" class="w">
+                                                
+                                                </span>
+                                                <h5 class="service-icon">conference</h5>
+                                                <p class="service-icon"><span class="service-icon">conference</span>luptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+                                            </a>
+
+                                        </li>
+                                      </ul>
+                                      
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+            </section> 
+            
+
+
+    <div class="p-5">
+        <ul class="nav justify-content-center counter space p-5 m-3">
+            <li class="nav-item">
+                <h3 class="font">1123+</h3><br>
+                <p class="color">Happy Clients</p>
+            </li>
+            <li class="nav-item">
+                <h3 class="font">4577+</h3><br>
+                <p class="color">LinkNew Friendship</p>
+            </li>
+            <li class="nav-item">
+                <h3 class="font">6737+</h3><br>
+                <p class="color">Five Star Rating</p>
+            </li>
+            <li class="nav-item">
+                <h3 class="font">3682+</h3><br>
+                <p class="color">Served Breakfast</p>
+            </li>
+
+        </ul>
+    </div>
+    <div>
+        <ul class="nav justify-content-center p-5">
+            <li class="nav-item">
+
+                <p>WHAT CAN I HELP YOU</p>
+                <h1 class="fw-bold">
+                    Our Special Staff
+                </h1>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 p-2 ">
+                <div class="card bg-warning">
+                    <img src="https://crm-the-placement-international-group-ld.sfo2.digitaloceanspaces.com/store/picture/data/content-30607aafc2ff7ec65880493c5ea2e6c5.jpg"
+                        class="card-body">
+                        <h5 class="card-title nav justify-content-center">Clare Smith</h5>
+                        <p class="card-text nav justify-content-center">Manager</p>
+                </div>
+            </div>
+            <div class="col-md-3 p-2">
+                <div class="card bg-warning">
+                    <img src="https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto,q_auto:eco,c_limit/vkhanna.jpg"
+                        class="card-body">
+                        <h5 class="card-title nav justify-content-center">Vikas Khanna</h5>
+                        <p class="card-text nav justify-content-center">Master Chef</p>
+                </div>
+            </div>
+            <div class="col-md-3 p-2 ">
+                <div class="card bg-warning">
+                    <img src="https://timtjal.com/wp-content/uploads/2021/06/HARPAL-SINGH-SOKHI.jpeg"
+                        class="card-body">
+                        <h5 class="card-title nav justify-content-center">HARPAL-SINGH-SOKHI</h5>
+                        <p class="card-text nav justify-content-center">Mater chef</p>
+                </div>
+            </div>
+            <div class="col-md-3 p-2 ">
+                <div class="card bg-warning">
+                    <img src="https://timtjal.com/wp-content/uploads/2021/06/images-2.jpeg"
+                        class="card-body">
+                        <h5 class="card-title nav justify-content-center">Sanjiv Kapoor</h5>
+                        <p class="card-text nav justify-content-center">Master Chef</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div>
+        <ul class="nav justify-content-center p-5">
+            <li class="nav-item">
+
+                <p>BEST PICTURES OF OWR HOTEL</p>
+                <h1 class="fw-bold">
+                     Our Gallery
+                </h1>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card m-0 ">
+                    <img src="https://images.pexels.com/photos/4946903/pexels-photo-4946903.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-body">
+                        
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card m-0">
+                    <img src="https://images.pexels.com/photos/277572/pexels-photo-277572.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-body">
+                       
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card m-0">
+                    <img src="https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-body">
+                       
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card m-0">
+                    <img src="https://images.pexels.com/photos/2504911/pexels-photo-2504911.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-body">
+                        
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/7102200/pexels-photo-7102200.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-body">
+                        
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/13722872/pexels-photo-13722872.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-body">
+                        
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/4916534/pexels-photo-4916534.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-body">
+                        
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card spacing">
+                    <img src="https://images.pexels.com/photos/4946758/pexels-photo-4946758.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-body">
+                        
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div>
+        <ul class="nav justify-content-center p-5">
+            <li class="nav-item">
+
+                <p>BEST AND AFFORDABLE PRICE FOR YOU</p>
+                <h1 class="fw-bold">
+                     Our Pricing
+                </h1>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card nav justify-content-center ">
+                    <h4 class="nav justify-content-center">Economic</h4><br>
+                    <h6 class="nav justify-content-center">flight Ticket(2)</h6><br>
+                    <h6 class="nav justify-content-center">Music concert(30% off)</h6><br>
+                    <h6 class="nav justify-content-center">Restaurant</h6><br>
+                    <h6 class="nav justify-content-center">Face Make(No)</h6><br>
+                    <hr>
+                    <h2 class="nav justify-content-center">$150</h2><p class="nav justify-content-center">/NIGHT</p><br>
+                    <button class="btn btn-primary nav justify-content-center rounded-pill p-2">Sign up</button>
+                        
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card m-0">
+                    <h4 class="nav justify-content-center">Economic</h4><br>
+                    <h6 class="nav justify-content-center">flight Ticket(2)</h6><br>
+                    <h6 class="nav justify-content-center">Music concert(30% off)</h6><br>
+                    <h6 class="nav justify-content-center">Restaurant</h6><br>
+                    <h6 class="nav justify-content-center">Face Make(No)</h6><br>
+                    <hr>
+                    <h2 class="nav justify-content-center">$150</h2><p class="nav justify-content-center">/NIGHT</p><br>
+                    <button class="btn btn-primary nav justify-content-center rounded-pill">Sign up</button>
+                        
+                       
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card m-0">
+                    <h4 class="nav justify-content-center">Economic</h4><br>
+                    <h6 class="nav justify-content-center">flight Ticket(2)</h6><br>
+                    <h6 class="nav justify-content-center">Music concert(30% off)</h6><br>
+                    <h6 class="nav justify-content-center">Restaurant</h6><br>
+                    <h6 class="nav justify-content-center">Face Make(No)</h6><br>
+                    <hr>
+                    <h2 class="nav justify-content-center">$150</h2><p class="nav justify-content-center">/NIGHT</p><br>
+                    <button class="btn btn-primary nav justify-content-center rounded-pill">Sign up</button>
+                        
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card m-0">
+                    <h4 class="nav justify-content-center">Economic</h4><br>
+                    <h6 class="nav justify-content-center">flight Ticket(2)</h6><br>
+                    <h6 class="nav justify-content-center">Music concert(30% off)</h6><br>
+                    <h6 class="nav justify-content-center">Restaurant</h6><br>
+                    <h6 class="nav justify-content-center">Face Make(No)</h6><br>
+                    <hr>
+                    <h2 class="nav justify-content-center">$150</h2><p class="nav justify-content-center">/NIGHT</p><br>
+                    <button class="btn btn-primary nav justify-content-center rounded-pill">Sign up</button>
+                        
+                        
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div>
+        <ul class="nav justify-content-center p-5">
+            <li class="nav-item">
+
+                <p>SAY HELLO TO OWR VISITERS</p>
+                <h1 class="fw-bold">
+                     Our Blog
+                </h1>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class=" container card">
+               <img src="https://www.jaypeehotels.com/blog/wp-content/uploads/2024/07/7-scaled.jpg" class="card-body">
+               <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <h5 class="nav justify-content-center">Relax Zone</h5>
+                  <h8 class="nav justify-content-center">BY AIMAN-FEBERARY 18, 2018</h8><br><br>
+                  <p class="nav justify-content-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptas recusandae voluptates vel.</p> <br>
+                  <button class="btn btn-warning nav justify-content-center m-3 rounded-pill">READ MORE</button>
+                </li>
+            
+              </ul>  
+               
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card m-0">
+                    <img src="https://cdn-ijnhp.nitrocdn.com/pywIAllcUPgoWDXtkiXtBgvTOSromKIg/assets/images/optimized/rev-5794eaa/www.jaypeehotels.com/blog/wp-content/uploads/2024/09/Blog-6-scaled.jpg" class="card-body">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <h5 class="nav justify-content-center">Relax Zone</h5>
+                          <h8 class="nav justify-content-center">BY AIMAN-FEBERARY 18, 2018</h8><br><br>
+                          <p class="nav justify-content-center m-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptas recusandae voluptates vel.</p> <br>
+                          <button class="btn btn-warning nav justify-content-center m-3 rounded-pill">READ MORE</button>
+                        </li>
+                    
+                      </ul>     
+                       
+                </div>
+            </div>
+            
+                        
+                        
+                
+            
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+     
+     
+
+     <div class=" container-flow mt-5">
+        <ul class="nav p-3 m-2">
+            <li class="nav-item">
+                <img width="150px" src="https://www.zarla.com/images/coca-cola-logo-2400x2400-20220519-1.png?crop=1:1,smart&width=150&dpr=2" class="our-partner-slider ">
+                </li>
+                <li class="nav-item">
+                <img width="150px" src="https://www.zarla.com/images/zarla-chanel-combination-logo-2400x2400-20240701.png?crop=1:1,smart&width=150&dpr=2" class="our-partner-slider ">
+                </li>
+                <li class="nav-item">
+                <img width="150px" src="https://www.zarla.com/images/wwf-logo-2400x2400-20220512.png?crop=1:1,smart&width=150&dpr=2" class="our-partner-slider ">
+                </li>
+                <li class="nav-item">
+                <img width="150px" src="https://www.zarla.com/images/google-logo-2400x2400-20220519-1.png?crop=1:1,smart&width=150&dpr=2" class="our-partner-slider ">
+                </li>
+                <li class="nav-item">
+                <img width="150px" src="https://www.zarla.com/images/ibm-logo-2400x2400-20220519-1.png?crop=1:1,smart&width=150&dpr=2" class="our-partner-slider">
+                </li>
+                <li class="nav-item">
+                <img width="150px" src="https://www.zarla.com/images/bmw-logo-2400x2400-20220512.png?crop=1:1,smart&width=150&dpr=2" class="our-partner-slider ">
+                </li>
+                <li class="nav-item">
+                <img width="150px" src="https://www.zarla.com/images/mercedes-benz-logo-2400x2400-20220513-2.png?crop=1:1,smart&width=150&dpr=2" class="our-partner-slider ">
+                </li>
+                <li class="nav-item">
+                <img width="150px" src="https://www.zarla.com/images/walmart-logo-2400x2400-20220513.png?crop=1:1,smart&width=150&dpr=2" class="our-partner-slider ">
+                </li>
+            
+
+
+              
+            
+          </ul>
+     </div>
+
+     <div class="container-flow  c">
+        <div class="row c">
+            <div class="col-md-3 c">
+                <div class="card nav justify-content-center c">
+                    <h4 class="nav justify-content-center white c">Hotel Location</h4><br>
+                    <h6 class="nav justify-content-center white c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ratione nemo....</h6><br>
+                    <h6 class="nav justify-content-center y c">No. 90, South City. London</h6><br>
+                    <h6 class="nav justify-content-center y c">* 1 222 3333</h6><br>
+                    <h6 class="nav justify-content-center y c">info@example.com</h6><br>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 c">
+                <div class="card m-0 c">
+                    <h4 class="nav justify-content-center white c">More Links</h4><br>
+                    <h6 class="nav justify-content-center white c">About us</h6><br>
+                    <h6 class="nav justify-content-center white c">Owr Office</h6><br>
+                    <h6 class="nav justify-content-center white c">Owr Store</h6><br>
+                    <h6 class="nav justify-content-center white c">Ourantee</h6><br>
+                    <h6 class="nav justify-content-center white c">Buy Gift Card</h6><br>
+                    <h6 class="nav justify-content-center white c">Return Policy</h6><br>
+                   
+                       
+                </div>
+            </div>
+            <div class="col-md-3 c">
+                <div class="card m-0 c">
+                    <h4 class="nav justify-content-center white c">Demo Links</h4><br>
+                    <h6 class="nav justify-content-center white c">About Us</h6><br>
+                    <h6 class="nav justify-content-center white c">Delivery</h6><br>
+                    <h6 class="nav justify-content-center white c">Owr Store</h6><br>
+                    <h6 class="nav justify-content-center white c">Ourantee</h6><br>
+                    <h6 class="nav justify-content-center white c">Buy Gift Card</h6><br>
+                    <h6 class="nav justify-content-center white c">Return Policy</h6><br>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 c">
+                <div class="card m-0 c">
+                    <h4 class="nav justify-content-center white c">Newsletter</h4><br>
+                    <input type="text" placeholder="enter your email here" class="nav justify-content-center white c">
+                    <button class="nav justify-content-center white c m-3">Subscribe</button>
+                    <h4 class="nav justify-content-center white c">Stay Connected</h4><br>
+                        
+                        
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+   
+       
+    
+   
+
+   
+    <script>
+        AOS.init();
+      </script>
+
+
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
